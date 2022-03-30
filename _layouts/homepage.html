@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{ site.title }} - {{ page.display-name | default: page.title }} </title>
+    <meta name="description" content="{% if page.isHome != true %}Find and use data about and for Pacific people in Aotearoa{% else %}{{site.description}}{% endif %}">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <meta property="og:site_name" content="{{site.title | xml_escape}}">
+    <meta property="og:title" content="{{site.title | xml_escape}}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{site.url | append: page.url | xml_escape}}">
+    <meta property="og:image" content="{{site.url}}/assets/img/layout/open-graph.jpeg" >
+    <meta name="og:description" content="{{site.subtitle | xml_escape}}">
+    <meta name="description" content="{{site.subtitle | xml_escape}}">
+    <meta name="twitter:site" content="@FigureNZ">
+    <meta name="twitter:title" content="{{site.title | xml_escape}}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:description" content="{{site.subtitle | xml_escape}}">
+    <meta name="twitter:image" content="{{site.url}}/assets/img/layout/person.jpg" >
+    <meta name="apple-mobile-web-app-title" content="{{site.title | xml_escape}}" />
+    <link rel="apple-touch-icon" href="{{site.baseurl}}/assets/img/favicons/AppleTouch.png" sizes="180x180">
+    <link rel="icon" href="{{site.baseurl}}/assets/img/favicons/32x32.ico" sizes="32x32" type="image/png">
+    <link rel="icon" href="{{site.baseurl}}/assets/img/favicons/32x32.ico" sizes="16x16" type="image/png">
+    <meta name="theme-color" content="#5461c8">
+    <link rel="mask-icon" href="{{site.baseurl}}/assets/img/favicons/safari-pinned-tab.svg" color="#5461c8">
+    {% include styles.html %}
+</head>
+<body>
+    <div class="flex-container">
+        <header class="main-header">
+            <div class="wrapper">
+                <div class="header-flex">
+                    <div class="menu-icon-container">
+                        <button id="home-menu-button" class="menu-icon" aria-label="Main menu" aria-expanded="false"><i class="fa fa-bars" aria-hidden="true"></i></button>
+                    </div>
+                    {% include navigation.html %}
+                    <p class="logo"><a href="{{site.baseurl}}/">{{site.title}}</a></p>
+                    <!-- remove hidden class from search icon container if you want search -->
+                <div class="search-icon-container">
+                    <!-- <span class="topics-icon"> -->
+                        <a class="close-button topic-jump" href="{{site.baseurl}}/#topics"><i class="fa fa-chart-bar topic-icon" aria-hidden="true"></i>See data</a>
+                    <!-- </span> -->
+                </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            {% if page.isHome == true %}
+            <section class="home-section">  
+                    <div class="content wrapper">
+                    <img class="logos pr-logo" alt="logo of a vitruvian man styled as a pie chart and the words 'Disability Data Hub'" src="{{site.baseurl}}/assets/img/layout/disabilitylogo.svg" />
+                    <div class="two-col-container heading-container">
+                        <div class="two-col-card heading-card text">
+                            <h1>Find data for and about disabled people in Aotearoa</h1>
+                            <h2>Improve wellbeing through better, data-informed decisions.</h2>
+                        </div>
+                        <!-- <div class="two-col-card heading-card">
+                            <img src="{{site.baseurl}}/assets/img/layout/home.png">
+                        </div> -->
+                    </div>
+                    <div class="header-logo logos">
+                        <p>Brought to you by</p>
+                        <div class="logo-container">
+                            <a href="https://figure.nz"><img alt="Figure.NZ logo" class="header-badge" src="{{site.baseurl}}/assets/img/ChartBadge.svg" /></a>
+                            <a href="https://www.stats.govt.nz"><img alt="Stats NZ logo" class="header-badge" src="{{site.baseurl}}/assets/img/layout/StatsNZ.png" /></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div aria-hidden="true" class="svg-stripe">  
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" class="svg-stripe hp-topics-svg-top" focusable="false">
+                    <polygon fill="#fbf280" points="0,85 100,1 100,6 0,90"></polygon>
+                    <polygon fill="#4db7c6" points="0,90 100,6 100,11 0,95"></polygon>
+                    <polygon fill="#ffffff" points="0,95 100,11 100,100 0,100"></polygon>
+                </svg>
+            </div>
+            <div id="home">
+                {{ content }}
+            </div>
+            {% else %}
+                {{ content }}
+            {% endif %}
+        
+        </main>
+
+        <footer class="main-footer">
+            <div class="copyright">
+                <p><a href="{{site.baseurl}}{% link about.md %}">About this project</a></p>
+                <p>{{ site.time | date: '%Y' }} © Figure.NZ</p>
+            </div>
+        </footer>
+    </div>
+
+    {% include search.html %}
+    {% include scripts.html %}
+    {% if site.analytics == true %}
+        {% include woopra-analytics.html %}
+    {% endif %}
+</body>
+</html>

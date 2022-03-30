@@ -1,0 +1,28 @@
+.close-button {
+  border-radius: 5px;
+  padding: .5em 1em;
+  margin-bottom: .5em;
+  box-sizing: border-box;
+  background: $button-colour;
+  border-color: disintensify($button-colour);
+  color: $white;
+  font-family: $h3-font-family;
+  text-decoration: none;
+  text-align: center;
+
+  &:not([disabled]):hover {
+    border-color: $button-colour;
+    background: highlight($button-colour);
+    text-decoration: none;
+    color: $white;
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 5px rgba(21, 156, 228, 0.4);
+  }
+
+  &:visited {
+    color: $white;
+  }
+}
