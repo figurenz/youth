@@ -7,8 +7,8 @@
         <li><a href="{{site.baseurl}}{% link about.md %}">About this site</a></li>
         <!-- <li><a href="{{site.baseurl}}{% link jobs.md %}">Employment Explorer</a></li> -->
         <!--Add more individual pages here-->
-        <li><a href="{{site.url}}#topics"><strong>Topics</strong></a></li>
-        {% for topic in site.topics %}
+        <li><a href="{{site.url}}#topics"><strong>Data about children</strong></a></li>
+        {% for topic in site.topics-children %}
             <li><a href="{{ topic.link | relative_url }}">{{ topic.title }}</a></li>
         {% endfor %}
         <!--Add more collection groups here. The code example above will iterate through each post.-->
