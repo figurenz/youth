@@ -1,7 +1,7 @@
 ---
 layout: content
 data: maori
-title: Disabled Māori
+title: Māori Children
 isHome: true
-link: https://figure.nz/search/?query=disabled%20maori&ref=dfnz
+link: https://figure.nz/search/?query=children%20maori&ref=yfnz
 ---

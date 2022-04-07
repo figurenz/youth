@@ -1,7 +1,7 @@
 ---
 layout: content
 data: health
-title: Health
+title: Children's Health
 isHome: true
-link: https://figure.nz/search/?query=disability%20health&ref=dfnz
+link: https://figure.nz/search/?query=children%20health&ref=yfnz
 ---
