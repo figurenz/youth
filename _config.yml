@@ -8,6 +8,8 @@ analytics: false
 collections:
   topics-children:
     output: true
+  topics-teens:
+    output: true
 
 markdown: kramdown
 

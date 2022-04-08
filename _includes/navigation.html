@@ -11,6 +11,10 @@
         {% for topic in site.topics-children %}
             <li><a href="{{ topic.link | relative_url }}">{{ topic.title }}</a></li>
         {% endfor %}
+        <li><a href="{{site.url}}#topics"><strong>Data about teens</strong></a></li>
+        {% for topic in site.topics-teens %}
+            <li><a href="{{ topic.link | relative_url }}">{{ topic.title }}</a></li>
+        {% endfor %}
         <!--Add more collection groups here. The code example above will iterate through each post.-->
     </ul>
 </nav>
