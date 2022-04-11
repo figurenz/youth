@@ -7,24 +7,34 @@
 -->
 
 <section id="topics" aria-describedby="topics" class="gray-bg">
-    <div class="content wrapper">
-      <h2 class="centered-heading">Explore data about children</h2>
+    <div class="content wrapper"> 
+      <h2 class="centered-heading">Explore data about children, teens, and young people</h2>
       <ul class="post-card-box clearfix">
-          {% for topic in site.topics-children %}
+          {% for topic in site.topics %}
               <li>
                   <div class="post-card">
-                      <a href="{{ topic.link }}">
                       <div class="post-card-image" role="img" aria-label="{{topic.title}}" style="background-image: url( '{{site.baseurl}}/assets/img/list/{{ topic.data }}.jpg' )">
                       </div>
                       <div class="post-card-body">
                         <h3 class="post-card-title">{{ topic.title }}</h3>
+                        <p class="post-card-subtitle">Explore data about:</p>
+                        <div class="button-group">
+                          {% if topic.link-ch %}
+                          <a class="close-button" href="{{ topic.link-ch }}">Children</a>
+                          {% endif %}
+                          {% if topic.link-te %}
+                          <a class="close-button" href="{{ topic.link-te }}">Teens</a>
+                          {% endif %}
+                          {% if topic.link-yo %}
+                          <a class="close-button" href="{{ topic.link-yo }}">Youth</a>
+                          {% endif %}
                       </div>
-                    </a>
+                      </div>
                   </div>
               </li>
           {% endfor %} 
       </ul>
-      <h2 class="centered-heading">Explore data about teenagers</h2>
+      <!-- <h2 class="centered-heading">Explore data about teenagers</h2>
       <ul class="post-card-box clearfix">
           {% for topic in site.topics-teens %}
               <li>
@@ -39,7 +49,7 @@
                   </div>
               </li>
           {% endfor %} 
-      </ul>
+      </ul> -->
       <!-- <h2 class="centered-heading">Explore data about young people</h2>
       <ul class="post-card-box clearfix">
           {% for topic in site.topics %}
