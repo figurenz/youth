@@ -10,6 +10,20 @@
         <li><a href="{{site.url}}#topics"><strong>Topics</strong></a></li>
         {% for topic in site.topics %}
             <li><a href="{{ topic.link | relative_url }}">{{ topic.title }}</a></li>
+                <ul class="sub-nav">
+                    {% if topic.link-ch %}
+                    <li><a href="{{ topic.link-ch }}">Children</a></li>
+                    {% endif %}
+                    {% if topic.link-te %}
+                    <li><a href="{{ topic.link-te }}">Teens</a></li>
+                    {% endif %}
+                    {% if topic.link-yo %}
+                    <li><a href="{{ topic.link-yo }}">Youth</a></li>
+                    {% endif %}
+                    {% if topic.link-all %}
+                    <li><a href="{{ topic.link-all }}">All young people</a></li>
+                    {% endif %}
+                </ul>
         {% endfor %}
         <!--Add more collection groups here. The code example above will iterate through each post.-->
     </ul>
