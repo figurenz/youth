@@ -37,3 +37,7 @@ Now that we’ve established the technology, systems, and processes needed to ma
 [<i class="fa fa-twitter fa-fw" aria-hidden="true"></i> www.twitter.com/FigureNZ](https://twitter.com/FigureNZ)
 
 [<i class="fa fa-facebook-official fa-fw" aria-hidden="true"></i> www.facebook.com/FigureNZ](https://facebook.com/FigureNZ)
+
+### Image licensing
+
+The photo used for the 'Crime' topic is used under Creative Commons CC-BY licensing from user [GPS 56 on Flickr](https://www.flickr.com/photos/91807507@N03/21060756045/in/photolist-y64T2x-h2b4J-2n5DfFC-GxddDE-T8ALmt-neJJMy-SK6vzy-aG163V-2c2NaUo-YeQZfJ-9B9bkh-8MueWu-pDx1u8-2n5RoF2-mtQstC-Ps4SSg-EMcoqs-PxmU4a-47UHD-7JhLgi-2ddiXGC-ro21PV-4LP8Qr-2m4nqbj-ZjDrx6-QAz2Fn-2bUctJe-gczYhn-2bUcssM-2emcLQW-2cbhdDZ-2bUcsYX-RiMbwL-RiMdJw-2cbhea8-PpJpJC-RiMc7J-RKZ9va-2fnubuw-ZjDseM-2bUcuta-Rr7u2f-RiMcUq-RiMexq-TmqnLs-2e6MgTk-PBT4RB-ZjDrU8-2hty2fQ-QLUbt8)
