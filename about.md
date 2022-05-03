@@ -8,17 +8,15 @@ youtubeId: Pi2MJGCuOQY
 
 # About {{site.title}}
 
-{{site.title}} is a free tool to help Disabled people in Aotearoa access data and develop data skills to support their work.
+{{site.title}} is a free tool to help young people in Aotearoa access data and develop data skills to support their work.
 
-You'll find a range of data about Disabled people and disability issues, and resources to help you understand and use the data.
+You'll find a range of data about young people and youth issues, and resources to help you understand and use the data.
 
 Can't find what you're looking for or have feedback for us on the site? Email us at <help@figure.nz> and let us know what you need. We especially welcome feedback on accessibility needs.
 
-{% include youtubePlayer.html id=page.youtubeId %}
-
 ## Who made this?
 
-{{site.title}} is brought to you by [Figure.NZ](https://figure.nz). This project is supported by our friends at [Stats NZ](https://stats.govt.nz). We are very grateful for both their support and their shared passion for Disabled people's wellbeing through access to quality data.
+{{site.title}} is brought to you by [Figure.NZ](https://figure.nz). This project is supported by our friends at [Stats NZ](https://stats.govt.nz). We are very grateful for both their support and their shared passion for young people's wellbeing through access to quality data.
 
 ### Figure.NZ
 
