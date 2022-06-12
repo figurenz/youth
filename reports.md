@@ -82,7 +82,7 @@ _University of Otago, 2020_
 
 This eighth annual Child Poverty Monitor updates progress made toward a society where every child is valued and enjoys their right to thrive and achieve their potential. This report uses a variety of data sources to measure indicators and impacts of poverty for households with children. Data in this report mostly precede the significant impact of the COVID-19 pandemic and the effects of the actions taken by the New Zealand Government to eliminate community transmission of the novel coronavirus.
 
-### [NZ is failing it's children](https://www.unicef.org.nz/stories/new-report-card-shows-that-new-zealand-is-failing-its-children)
+### [NZ is failing its children](https://www.unicef.org.nz/stories/new-report-card-shows-that-new-zealand-is-failing-its-children)
 
 _Unicef, 2020_
 
