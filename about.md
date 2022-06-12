@@ -26,7 +26,7 @@ We do this because we want to live in a country where everyone can take part in 
 
 We’re committed to making New Zealand’s public, aggregate data available through our website — for free, for everyone, forever — because we believe data is not just for experts, and its true value lies in people using it in their day to day lives.
 
-We’ve put data about New Zealand from over 175 different organisations into one easily searchable place, where more than 43,000 charts and datasets are available.
+We’ve put data about New Zealand from over 175 different organisations into one easily searchable place, where more than 50,000 charts and datasets are available.
 
 Now that we’ve established the technology, systems, and processes needed to make our country’s data easily available, we’re focused on getting it into the hands of New Zealanders, and providing the support they need to make good use of it.
 
