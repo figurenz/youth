@@ -24,6 +24,14 @@ Measuring child poverty: Concepts and definitions explains the terms used in cal
 
 This edition of Measuring child poverty: Concepts and definitions was updated in February 2021 to include definitions for disabled child and disabled adult. These additions reflect changes in our data collection made to improve the level of precision in measuring child poverty, required in the Child Poverty Reduction Act 2018.
 
+### [OHI Data Navigator](https://foundation.vodafone.co.nz/ohi-data-navigator/)
+
+_Vodafone Foundation Aotearoa_
+
+Data Navigator is a free interactive platform which draws on government and community data. This tool will allow users to explore population-level data to improve and inform their work.
+
+We can explore, for example, how young people living in a particular area are faring in areas like education, health, housing, income, and employment. It can also tell us how often these rangatahi are interacting with protective services or the justice system; how they perceive their own level of wellbeing, their cultural identity, and their level of social connectedness.
+
 ## Health and Wellbeing
 
 ### [Youth 19 Youth Survey](https://www.youth19.ac.nz/publications)
