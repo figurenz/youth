@@ -110,6 +110,14 @@ Annual report on the progress towards the Government's Child, Youth, and Wellbei
 
 ## Education and Employment
 
+### [Unlocking the Enormous Potential of Neurodiverse Learners](https://www.neurodiversity.org.nz/white-paper)
+
+_Neurodiversity in Education Coalition, 2023_
+
+Unlocking the Enormous Potential of Neurodiverse Learners is a white paper that sets out the failures of our education system to provide for the needs of neurodiverse learners and its massive social and economic cost.
+
+It calls for a whole-of-system, fully-resourced, long-term change process, across every level of the education system.
+
 ### [Youth Enterprise in NZ ](https://www.teketearonui.co.nz/)
 
 _Ministry of Youth Development and The Prince's Trust Aotearoa, 2021_
